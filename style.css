@@ -13,3 +13,14 @@
 body {
   font-size: 16px;
 }
+
+.app {
+  display: grid;
+  grid-template-rows: max-content 1fr max-content;
+  height: 100vh;
+}
+
+.container {
+  padding: 1.6rem 3.2rem;
+  width: min(102rem, 100%);
+}
